@@ -1,9 +1,9 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Aleksandar Gyorev
+bio: solving problems @Leanplum, music addict, sports lover
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: just searching for the truth
 
 # if it's an external image, update below for true
 # better with square images
@@ -16,7 +16,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://koppl.in/indigo
+url: http://agyorev.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -34,35 +34,30 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+facebook: alexander.gyorev
+twitter: agyorev
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
+github: agyorev
+linkedin: agyorev
 # youtube: myyoutube
-# spotify: myspotify
-github: mygithub
+spotify: alexander.gyorev
+lastfm: caka7a
 # stackoverflow: 7044681/mystackoverflow
-# quora: userquora
+quora: Aleksandar-Gyorev
 # reddit: username
-medium: medium
+medium: agyorev
 # vimeo: myvimeo
-email: myemail@gmail.com
+email: alexander.gyorev@gmail.com
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    agyorev:
+        name: Aleksandar Gyorev
+        bio: searching for the truth
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+        twitter: agyorev
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -70,8 +65,8 @@ authors:
 width: normal
 
 # if you don't need pagination, comment the *paginate* configs below
-# paginate: 5
-# paginate_path: "blog/:num/"
+paginate: 5
+paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
 projects: true
@@ -101,6 +96,8 @@ animation: true
 gems:
   - jekyll-seo-tag
   - jekyll-gist
+  - jekyll-paginate
+  - jekyll-feed
 
 jekyll-mentions:
     base_url: https://github.com
